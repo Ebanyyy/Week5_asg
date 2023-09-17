@@ -205,6 +205,22 @@ body {
 	padding: 1rem;
 }
 
+.header-left {
+	display: flex;
+	align-items: center;
+}
+
+.header-left img {
+	margin-left: 10px;
+	margin-left: 0;
+	padding: 1rem;
+}
+
+.header i {
+	padding: 0px 7px;
+	cursor: pointer;
+}
+
 .youtube-logo {
 	height: 20px;
 }
@@ -254,6 +270,36 @@ body {
 	height: 36px;
 	background-color: #AAA;
 }
+
+
+
+/*.sidebody {
+	height: calc(100vh - 70px);
+	display: flex;
+	overflow: hidden;
+}
+
+.sidebar {
+	height: 100%;
+	width: 230px;
+	background-color: white;
+	overflow-y: scroll;
+}
+.side-categories {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.side-category {
+	display: flex;
+	align-items: center;
+	padding: 12px 25px;
+}
+*/
+
 
 
 
